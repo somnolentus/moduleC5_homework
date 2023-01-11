@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+    margin: 30px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    width: 200px;
+}
+
+#width, #height {
+    width: 200px;
+    height: 60px;
+    font-size: 28px;
+    align-self: center;
+    margin: 1px 1px;
+    text-align: center;
+}
+
+#result {
+    margin-top: 20px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+

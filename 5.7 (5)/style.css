@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+    margin: 1px 1px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+.btn:hover {
+    width: 200px;
+}
+
+.lbl {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 1px 1px;
+}
+
+#limit, #page {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    align-self: center;
+}
+
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pic {
+    margin: 3px 3px;
+}
+
+.pic-image {
+    height: 180px;
+    width: 310px;
+}
